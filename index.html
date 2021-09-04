@@ -6,12 +6,26 @@
   <link rel="icon" type="image/svg+xml" href=".svg" />
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favlogo.svg" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>brop.in</title>
 </head>
 
 <body>
-  <div class="body1">
-    <div class="hidder"></div>
+  <div class="body1" id="body">
+    <div class="topnav">
+      <div class="contents">
+        <div>Home</div>
+        <div>About</div>
+        <div>Contact</div>
+      </div>
+      <div class="logos">
+        <img src="brop2.png" alt="">
+        <img src="plane1.png" alt="" class="key2">
+      </div>
+    </div>
+    <div class=" hidder">
+    </div>
     <section class="sec1">
       <div class="logo">
         <img src="brop.svg" alt="" />
@@ -29,10 +43,79 @@
       <img src="back.png" alt="" />
     </section>
     <section class="sec3">
-
+      <section class="sideNav1">
+        <img src="brop2.svg" alt="" class="logo1">
+        <img src="plane.svg" alt="" class="plane">
+        <div class="social">
+          <a href="https://www.instagram.com/brop.in/"><img src="insta.svg" alt=""></a>
+          <a href="https://twitter.com/Brop_in"><img src="tweet.svg" alt=""></a>
+        </div>
+      </section>
+      <section class="sideNav2">
+        <div class="tab" id="b1"><a href="#body">Home</a></div>
+        <div class="tab" id="b2"><a href="#about">About</a></div>
+        <div class="tab" id="b3"><a href="#contact">Contact</a></div>
+      </section>
     </section>
   </div>
-  <script src="script.js"></script>
+  <div class="about" id="about">
+    <h1 data-aos="fade-right">Join us along the journey</h1>
+    <div data-aos="fade-up" class="about1">
+      <div id="first" class="set">
+        <div class="head">
+          <img src="target.png" alt="">
+          <h2>AIM</h2>
+        </div>
+        <p>
+          "To promote innovation and provide a platform for speedy commercialisation of technology."
+        </p>
+      </div>
+      <div id="second" class="set">
+        <div class="head">
+          <img src="goal.png" alt="">
+          <h2>MISSION</h2>
+        </div>
+        <p>
+          "Connecting travellers and making transportation reliable ."
+        </p>
+      </div>
+      <div id="third" class="set">
+        <div class="head">
+          <img src="eye.png" alt="">
+          <h2>VISION</h2>
+        </div>
+        <p>
+          "We strive to offer our customers the best services."
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="contact" id="contact">
+    <h1 data-aos="fade-right">Get your queries solved</h1>
+    <div data-aos="fade-up" class="contact1">
+      <div id="first" class="set">
+        <div class="con">
+          <img src="email 1.svg" alt="">
+          <div class="con1">support@brop.in</div>
+        </div>
+        <div class="con">
+          <img src="instagram 3.svg" alt="">
+          <div class="con1">@brop.in</div>
+        </div>
+        <div class="con">
+          <img src="twitter 3.svg" alt="">
+          <div class="con1">@Brop_in</div>
+        </div>
+      </div>
+      <div id="second" class="set">
+        <img src="person.svg" alt="">
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
