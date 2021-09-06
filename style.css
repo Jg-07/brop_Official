@@ -339,7 +339,7 @@ border-radius: 25px;
 
 .mascot{
   margin-top: 15vh;
-  background: #448fffd2;
+  background: linear-gradient(to top,rgb(71, 181, 255),rgb(53, 134, 255));
   width: 93%;
   height: 75vh;
   display: flex;
