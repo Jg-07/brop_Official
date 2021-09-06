@@ -339,7 +339,7 @@ border-radius: 25px;
 
 .mascot{
   margin-top: 15vh;
-  background: linear-gradient(to top,rgb(71, 181, 255),rgb(53, 134, 255));
+  background: linear-gradient(to top left,#2079F0,#0455CB);
   width: 93%;
   height: 75vh;
   display: flex;
@@ -397,7 +397,7 @@ border-radius: 25px;
 }
 
 footer{
-  background-color: rgb(6, 30, 73);
+  background-color: #05142c;
   height: 50vh;
 }
 
