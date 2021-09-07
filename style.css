@@ -28,6 +28,19 @@ background:#96c2ff;
 border-radius: 25px;
 }
 
+.load{
+  top: 0px;
+  background-color: white;
+  left: 0px;
+  z-index: 12;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .body1{
   display: flex;
   width: 100%;
