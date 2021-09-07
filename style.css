@@ -28,6 +28,10 @@ background:#96c2ff;
 border-radius: 25px;
 }
 
+body{
+  overflow-y:hidden;
+}
+
 .load{
   top: 0px;
   background-color: white;

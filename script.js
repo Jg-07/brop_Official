@@ -6,10 +6,10 @@ let button1 = document.querySelector("#b1");
 let button2 = document.querySelector("#b2");
 let button3 = document.querySelector("#b3");
 let topNav = document.querySelector(".topnav");
-let t1 = document.querySelector("#l1")
-let t2 = document.querySelector("#l2")
-let t3 = document.querySelector("#l3")
-let load = document.querySelector('.load')
+let t1 = document.querySelector("#l1");
+let t2 = document.querySelector("#l2");
+let t3 = document.querySelector("#l3");
+let load = document.querySelector('.load');
 
 let i = 0;
 let j = 0;
@@ -100,4 +100,5 @@ document.getElementById('copy_btn').onclick = function () {
             }, 1000)
         })
 }
+
 

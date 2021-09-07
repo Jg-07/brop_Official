@@ -8,10 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="fav.png" type="image/x-icon">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <title>brop.in</title>
 </head>
 
-<body>
+<body class="body">
   <video src="video_1.mp4" class="load" autoplay muted></video>
   <div class="body1" id="body">
     <div class="topnav">
@@ -145,8 +146,9 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
-  </script>
-  <script>
+
+    var body = document.querySelector('.body');
+
     var typed = new Typed('.typed', {
       strings: ["Launching Soon On "],
       typeSpeed: 60,
@@ -161,6 +163,12 @@
       backDelay: 3300,
       loop: true,
     });
+
+    var myloop1 = setInterval(() => {
+      $('.load').fadeOut('slow');
+      body.style.overflowY = 'visible';
+    }, 8000);
+
   </script>
 </body>
 
